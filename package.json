@@ -1,0 +1,23 @@
+{
+  "name": "css-grid-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:matthewnitschke/css-grid-generator.git",
+  "author": "Matthew Nitschke <matthewcnitschke@gmail.comi>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel example/index.html --out-dir example/build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.7.0"
+  }
+}

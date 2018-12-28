@@ -1,0 +1,30 @@
+.css-grid-generator .code-view {
+  background-color: #282a36;
+  color: #f8f8f2;
+  padding: 1rem; }
+
+.css-grid-generator .code-view-input {
+  border: none;
+  border-bottom: solid 1px lightgrey;
+  outline: none;
+  color: #bd93f9;
+  background-color: #282a36; }
+  .css-grid-generator .code-view-input.small {
+    width: 40px; }
+  .css-grid-generator .code-view-input.invalid {
+    border: solid 2px red; }
+
+.css-grid-generator .layout-view {
+  display: inline-grid;
+  width: 480px;
+  height: 310px; }
+
+.css-grid-generator .layout-view-child {
+  background-color: lightblue;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  overflow: hidden;
+  border-radius: 5px; }
